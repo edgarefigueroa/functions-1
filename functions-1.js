@@ -68,3 +68,26 @@ function greeting(person1,person2){
 greeting("isha",'Aria')
 greeting("Stephanie",'Jon')
 greeting("Isha",'Jon')
+
+
+//function declaration
+function declarationFunction(){
+    console.log(`i am a declaration function`)
+}
+declarationFunction();
+
+//function expression
+const expressionFunction = function(){
+    console.log(`i am a function expression`)
+}
+expressionFunction();
+
+//arrow function
+const arrowFunction = () => {
+    console.log(`I am an arrow function`)
+}
+arrowFunction();
+
+//in-line arrow function
+const arrowFuncInline = param => console.log(`Im an in-line arrow functions with ${param}`)
+arrowFuncInline();
